@@ -55,7 +55,7 @@
     <string name="link"><![CDATA[https://id.pngtree.com/freepng/small-autumn-forest-plant-small-scene_5765665.html\n\nhttps://id.pngtree.com/freepng/small-scene-shrubs-grasses-and-plants_7120250.html\n\nhttps://storyset.com/planthttps://storyset.com/plant\n\nhttps://storyset.com/illustration/software-engineer/amico\n\nhttps://storyset.com/illustration/mobile-development/cuate\n\nhttps://storyset.com/illustration/profile-pic/cuate#8DC73DFF&hide=&hide=complete\n\nhttps://www.freepik.com/free-vector/vector-illustration-variety-spices-herbs-wooden-background_1265737.htm#query=Spice%20Vectors&position=10&from_view=search\n\nhttps://www.freepik.com/free-vector/vector-illustration-variety-spices-herbs-wooden-bowls-black-background_1320609.htm#page=3&query=spice&position=45&from_view=keyword]]></string>
     <string name="about">About</string>
     <string name="spitionary">Spitionary!</string>
-    <string name="desk_spitionary">An image processing-based application that is useful for recognizing the existing spices and then providing a description of the spices. By scanning or taking photos of the spices, users can find out the type and description of the spices. Not only that, users are also given recommendations or suggestions on what food processing can be served using these ingredients and provide information on the use of these ingredients as herbal medicines.</string>
+    <string name="desk_spitionary">An application that provides information about spices that provides information not only limited to the names of spices and their properties, but also in the form of pictures, Latin names and various other detailed information that supports the user"'"s curiosity about spices.</string>
     <string name="dev_title">Developer of Application</string>
     <string name="resources">Resources</string>
     <string name="in_development">In Development…</string>
@@ -66,11 +66,11 @@
     <string name="language">Language</string>
 
     <string name="spitionary_header">SPITIONARY</string>
-    <string name="spitionary_desc_header">An image processing based\nspices recognition app</string>
+    <string name="spitionary_desc_header">Spices information provider \napplication</string>
     <string name="edge_decoration_img_main_menu">Edge decoration image in main menu</string>
     <string name="dashboard_title">Dashboard</string>
     <string name="scan">Scan</string>
-    <string name="dictionary">Dictionary</string>
+    <string name="spices">Spices</string>
     <string name="article">Article</string>
     <string name="profile">Profile</string>
     <string name="scan_desc">Scan the spices you don’t know.</string>

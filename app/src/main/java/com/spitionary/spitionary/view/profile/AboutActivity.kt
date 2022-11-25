@@ -38,53 +38,53 @@ class AboutActivity : AppCompatActivity() {
             }
         }
 
-        binding.cvAppDeveloper.setOnClickListener {
-            if (binding.descAppDev.visibility == View.GONE) {
-                TransitionManager.beginDelayedTransition(binding.cvAppDeveloper, AutoTransition())
-                binding.descAppDev.visibility = View.VISIBLE
-                binding.downArrow2.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
-            } else {
-                TransitionManager.beginDelayedTransition(binding.cvAppDeveloper, AutoTransition())
-                binding.descAppDev.visibility = View.GONE
-                binding.downArrow2.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
-            }
-        }
-
-        binding.cvResources.setOnClickListener {
-            if (binding.descResources.visibility == View.GONE) {
-                TransitionManager.beginDelayedTransition(binding.cvResources, AutoTransition())
-                binding.descResources.visibility = View.VISIBLE
-                binding.downArrow3.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
-            } else {
-                TransitionManager.beginDelayedTransition(binding.cvResources, AutoTransition())
-                binding.descResources.visibility = View.GONE
-                binding.downArrow3.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
-            }
-        }
-
-        binding.cvContactUs.setOnClickListener {
-            if (binding.descContactUs.visibility == View.GONE) {
-                TransitionManager.beginDelayedTransition(binding.cvContactUs, AutoTransition())
-                binding.descContactUs.visibility = View.VISIBLE
-                binding.downArrow4.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
-            } else {
-                TransitionManager.beginDelayedTransition(binding.cvContactUs, AutoTransition())
-                binding.descContactUs.visibility = View.GONE
-                binding.downArrow4.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
-            }
-        }
-
-        binding.cvAppVersion.setOnClickListener {
-            if (binding.descAppVersion.visibility == View.GONE) {
-                TransitionManager.beginDelayedTransition(binding.cvAppVersion, AutoTransition())
-                binding.descAppVersion.visibility = View.VISIBLE
-                binding.downArrow5.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
-            } else {
-                TransitionManager.beginDelayedTransition(binding.cvAppVersion, AutoTransition())
-                binding.descAppVersion.visibility = View.GONE
-                binding.downArrow5.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
-            }
-        }
+//        binding.cvAppDeveloper.setOnClickListener {
+//            if (binding.descAppDev.visibility == View.GONE) {
+//                TransitionManager.beginDelayedTransition(binding.cvAppDeveloper, AutoTransition())
+//                binding.descAppDev.visibility = View.VISIBLE
+//                binding.downArrow2.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
+//            } else {
+//                TransitionManager.beginDelayedTransition(binding.cvAppDeveloper, AutoTransition())
+//                binding.descAppDev.visibility = View.GONE
+//                binding.downArrow2.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
+//            }
+//        }
+//
+//        binding.cvResources.setOnClickListener {
+//            if (binding.descResources.visibility == View.GONE) {
+//                TransitionManager.beginDelayedTransition(binding.cvResources, AutoTransition())
+//                binding.descResources.visibility = View.VISIBLE
+//                binding.downArrow3.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
+//            } else {
+//                TransitionManager.beginDelayedTransition(binding.cvResources, AutoTransition())
+//                binding.descResources.visibility = View.GONE
+//                binding.downArrow3.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
+//            }
+//        }
+//
+//        binding.cvContactUs.setOnClickListener {
+//            if (binding.descContactUs.visibility == View.GONE) {
+//                TransitionManager.beginDelayedTransition(binding.cvContactUs, AutoTransition())
+//                binding.descContactUs.visibility = View.VISIBLE
+//                binding.downArrow4.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
+//            } else {
+//                TransitionManager.beginDelayedTransition(binding.cvContactUs, AutoTransition())
+//                binding.descContactUs.visibility = View.GONE
+//                binding.downArrow4.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
+//            }
+//        }
+//
+//        binding.cvAppVersion.setOnClickListener {
+//            if (binding.descAppVersion.visibility == View.GONE) {
+//                TransitionManager.beginDelayedTransition(binding.cvAppVersion, AutoTransition())
+//                binding.descAppVersion.visibility = View.VISIBLE
+//                binding.downArrow5.background = AppCompatResources.getDrawable(this, R.drawable.ic_up_arrow)
+//            } else {
+//                TransitionManager.beginDelayedTransition(binding.cvAppVersion, AutoTransition())
+//                binding.descAppVersion.visibility = View.GONE
+//                binding.downArrow5.background = AppCompatResources.getDrawable(this, R.drawable.ic_down_arrow)
+//            }
+//        }
     }
 
     override fun onBackPressed() {

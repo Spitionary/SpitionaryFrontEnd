@@ -7,7 +7,7 @@
     <string name="onBoarding_general_img">Gambar Vektor Layar Orientasi</string>
     <string name="onBoarding_general_logo">Logo Aplikasi Layar Orientasi</string>
     <string name="onBoarding_title2">Pelajari Beragam Spesies Rempah-Rempah</string>
-    <string name="onBoarding_desc1">Anda dapat mengidentifikasi rempah yang tidak Anda ketahui melalui kamera Anda</string>
+    <string name="onBoarding_desc1">Anda dapat mengidentifikasi rempah yang tidak Anda ketahui sebelumnya</string>
     <string name="onBoarding_desc2">Mari kita belajar tentang banyak spesies rempah-rempah yang ada di dunia ini</string>
     <string name="get_started">MULAI</string>
     <string name="next">BERIKUTNYA</string>
@@ -56,7 +56,7 @@
     <string name="link"><![CDATA[https://id.pngtree.com/freepng/small-autumn-forest-plant-small-scene_5765665.html\n\nhttps://id.pngtree.com/freepng/small-scene-shrubs-grasses-and-plants_7120250.html\n\nhttps://storyset.com/planthttps://storyset.com/plant\n\nhttps://storyset.com/illustration/software-engineer/amico\n\nhttps://storyset.com/illustration/mobile-development/cuate\n\nhttps://storyset.com/illustration/profile-pic/cuate#8DC73DFF&hide=&hide=complete\n\nhttps://www.freepik.com/free-vector/vector-illustration-variety-spices-herbs-wooden-background_1265737.htm#query=Spice%20Vectors&position=10&from_view=search\n\nhttps://www.freepik.com/free-vector/vector-illustration-variety-spices-herbs-wooden-bowls-black-background_1320609.htm#page=3&query=spice&position=45&from_view=keyword]]></string>
     <string name="about">Tentang</string>
     <string name="spitionary">Spitionary!</string>
-    <string name="desk_spitionary">Sebuah aplikasi berbasis pengolahan gambar yang berguna untuk mengenali rempah yang ada kemudian memberikan deskripsi tentang rempah tersebut. Dengan memindai atau mengambil foto rempah-rempah, pengguna dapat mengetahui jenis dan deskripsi rempah-rempah. Tidak hanya itu, pengguna juga diberikan rekomendasi atau saran tentang pengolahan makanan apa saja yang bisa disajikan menggunakan bahan-bahan tersebut dan memberikan informasi penggunaan bahan-bahan tersebut sebagai obat herbal.</string>
+    <string name="desk_spitionary">Sebuah aplikasi penyedia informasi seputar rempah-rempah yang menyediakan informasi tidak hanya sebatas nama rempah dan khasiatnya, namun juga berupa gambar, nama latinnya dan beragam informasi detail lainnya yang menunjang keingintahuan pengguna terhadap rempah-rempah.</string>
     <string name="dev_title">Pengembang Aplikasi</string>
     <string name="resources">Sumber Daya</string>
     <string name="in_development">Dalam Pengembangan…</string>
@@ -67,11 +67,11 @@
     <string name="language">Bahasa</string>
 
     <string name="spitionary_header">SPITIONARY</string>
-    <string name="spitionary_desc_header">Aplikasi pengenalan rempah\nberbasis pemrosesan gambar</string>
+    <string name="spitionary_desc_header">Aplikasi penyedia infromasi \nseputar rempah-rempah</string>
     <string name="edge_decoration_img_main_menu">Gambar dekorasi tepi di menu utama</string>
     <string name="dashboard_title">Dasbor</string>
     <string name="scan">Pindai</string>
-    <string name="dictionary">Kamus</string>
+    <string name="spices">Rempah</string>
     <string name="article">Artikel</string>
     <string name="profile">Profile</string>
     <string name="scan_desc">Pindai rempah yang tidak Anda ketahui.</string>

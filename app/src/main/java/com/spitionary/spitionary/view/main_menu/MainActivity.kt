@@ -16,7 +16,6 @@ import com.spitionary.spitionary.utils.ViewModelFactory
 import com.spitionary.spitionary.view.article.ArticleActivity
 import com.spitionary.spitionary.view.dictionary.DictionaryActivity
 import com.spitionary.spitionary.view.profile.ProfileActivity
-import com.spitionary.spitionary.view.scan.ScanActivity
 import com.spitionary.spitionary.view.welcome_screen.WelcomeActivity
 import com.spitionary.spitionary.view_model.MainViewModel
 
@@ -41,9 +40,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupMainMenuAction() {
-        binding.menuScan.setOnClickListener {
-            shareTokenAndMoveToScanActivity()
-        }
 
         binding.menuDictionary.setOnClickListener {
             shareTokenAndMoveToDictionaryActivity()
@@ -86,21 +82,6 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, DictionaryActivity::class.java)
                 intent.let {
                     it.putExtra(DictionaryActivity.EXTRA_TOKEN_DICTIONARY, user.token)
-                    startActivity(it)
-                }
-            }
-        }
-    }
-
-    private fun shareTokenAndMoveToScanActivity() {
-        mainViewModel.getUserInMainMenu().observe(this) { user ->
-            this.user = user
-            Log.d("Move Activity","Your Token : ${user.token}")
-
-            if (this.user.isLogin) {
-                val intent = Intent(this, ScanActivity::class.java)
-                intent.let {
-                    it.putExtra(ScanActivity.EXTRA_TOKEN_SCAN, user.token)
                     startActivity(it)
                 }
             }
